@@ -1,21 +1,32 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src &#39;none&#39;; script-src &#39;self&#39;; style-src &#39;self&#39;; img-src &#39;self&#39; data:; connect-src https://vocadb.net; base-uri &#39;none&#39;; form-action &#39;none&#39;">
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#39c5bb" />
+    <meta name="theme-color" content="#0d1a1c" media="(prefers-color-scheme: dark)" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%2339c5bb'/%3E%3Cellipse cx='12' cy='22' rx='4.5' ry='3.5' fill='%23052b28'/%3E%3Crect x='15' y='8' width='2.2' height='14' fill='%23052b28'/%3E%3Cpath d='M17 8q6 1 7 7q-3-3-7-3z' fill='%23052b28'/%3E%3C/svg%3E"
+    />
     <title>Miku Event Countdown</title>
-    <script type="module" crossorigin src="./assets/index-BaWiARgL.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-D80WFM6T.css">
+    <script type="module" crossorigin src="./assets/index-C4tVXAtL.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-ugUytCTU.css">
   </head>
   <body>
     <main>
+      <h1 class="visually-hidden">Miku Event Countdown</h1>
+      <div id="storage-notice"></div>
       <div id="intro"></div>
+      <div id="saved-events-notice"></div>
       <div id="next-event"></div>
       <div id="calendar"></div>
       <div id="concerts"></div>
     </main>
     <footer class="credit">
       Event data from <a href="https://vocadb.net" target="_blank" rel="noopener noreferrer">VocaDB</a>
-    </footer>
+    </footer>
   </body>
 </html>
